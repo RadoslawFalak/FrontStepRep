@@ -1,4 +1,4 @@
 cd /home/r4d3k/Pulpit/Zadania FrontStep/Level_5/NewLocalRep
-sudo git add .
-sudo git commit -m "Zapis automatyczny!"
-sudo git push origin main
+GIT_SSH_COMMAND="ssh -i /home/r4d3k/.ssh/id_rsa" git add .
+GIT_SSH_COMMAND="ssh -i /home/r4d3k/.ssh/id_rsa" git commit -m "Zapis automatyczny!"
+GIT_SSH_COMMAND="ssh -i /home/r4d3k/.ssh/id_rsa" git push origin main
